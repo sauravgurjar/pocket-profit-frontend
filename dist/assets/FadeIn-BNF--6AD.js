@@ -1,0 +1,1 @@
+import{u as n,w as o}from"./index-BX19i1XF.js";function r({children:i,delay:t=0,className:e}){return n.jsx(o.div,{className:e,initial:{opacity:0,y:18},whileInView:{opacity:1,y:0},viewport:{once:!0,margin:"-80px"},transition:{duration:.5,ease:"easeOut",delay:t},children:i})}export{r as F};

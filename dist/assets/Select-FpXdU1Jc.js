@@ -1,1 +1,0 @@
-import{u as r,G as s}from"./index-DcLNHfdN.js";function a({className:e,...t}){return r.jsx("select",{className:s("w-full rounded-xl border border-slate-900/10 bg-white/80 px-4 py-3 text-sm text-slate-900 shadow-sm outline-none focus:border-accent-500/50 focus:ring-2 focus:ring-accent-500/20 dark:border-white/10 dark:bg-white/5 dark:text-white",e),...t})}export{a as S};
