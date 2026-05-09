@@ -1,0 +1,36 @@
+export const creditCards = [
+  {
+    id: "cc-1",
+    name: "PocketPlus Rewards",
+    annualFee: 999,
+    rewards: "2% reward points",
+    cashback: "1% on utilities",
+    travel: "Airport lounge access (2/yr)",
+    shopping: "10% partner offers",
+    bestFor: ["Shopping", "Beginners"],
+    affiliateCta: "Apply via Partner",
+  },
+  {
+    id: "cc-2",
+    name: "PocketTravel Signature",
+    annualFee: 2499,
+    rewards: "4X points on travel",
+    cashback: "0.5% base cashback",
+    travel: "Lounge + insurance",
+    shopping: "2X points on online",
+    bestFor: ["Travel", "Miles"],
+    affiliateCta: "Check Eligibility",
+  },
+  {
+    id: "cc-3",
+    name: "PocketCashback Lite",
+    annualFee: 0,
+    rewards: "1% rewards",
+    cashback: "5% on groceries (cap)",
+    travel: "Fuel surcharge waiver",
+    shopping: "2% on e-commerce",
+    bestFor: ["Cashback", "First card"],
+    affiliateCta: "Get Cashback Card",
+  },
+];
+

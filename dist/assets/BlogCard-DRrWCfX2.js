@@ -1,0 +1,6 @@
+import{c as a,u as e,C as s,L as l}from"./index-DcLNHfdN.js";import{B as r}from"./Badge-DdnHMfUG.js";/**
+ * @license lucide-react v0.469.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c=a("ArrowRight",[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"m12 5 7 7-7 7",key:"xquz4c"}]]);function x({post:t}){return e.jsxs(s,{className:"group overflow-hidden p-0",children:[e.jsx("img",{src:t.image,alt:t.title,loading:"lazy",className:"h-40 w-full object-cover transition group-hover:scale-[1.02]"}),e.jsxs("div",{className:"p-6",children:[e.jsxs("div",{className:"flex flex-wrap items-center gap-2",children:[e.jsx(r,{children:t.category}),e.jsx("span",{className:"text-xs font-semibold text-slate-500 dark:text-white/45",children:t.readTime})]}),e.jsx("h3",{className:"mt-3 line-clamp-2 text-base font-extrabold tracking-tight text-slate-900 dark:text-white",children:t.title}),e.jsx("p",{className:"mt-2 line-clamp-2 text-sm text-slate-600 dark:text-white/65",children:t.excerpt}),e.jsxs(l,{to:`/blog/${t.slug}`,className:"mt-4 inline-flex items-center gap-2 text-sm font-bold text-accent-600 hover:text-accent-500 dark:text-accent-400",children:["Read article ",e.jsx(c,{className:"h-4 w-4"})]})]})]})}export{x as B};

@@ -1,0 +1,1 @@
+import{b as s}from"./blogs-D2SZ7aKQ.js";function u(o){return s.find(t=>t.slug===o)}function g({q:o,category:t}){const r=(o||"").trim().toLowerCase();return s.filter(e=>{const n=!t||e.category===t,a=`${e.title} ${e.excerpt} ${(e.tags||[]).join(" ")}`.toLowerCase(),c=!r||a.includes(r);return n&&c})}export{g as f,u as g};

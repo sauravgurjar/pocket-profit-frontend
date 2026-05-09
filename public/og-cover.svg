@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#070A12"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22C55E" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#bg)"/>
+  <circle cx="320" cy="220" r="240" fill="url(#g)"/>
+  <circle cx="940" cy="170" r="190" fill="url(#g)"/>
+  <circle cx="880" cy="520" r="220" fill="url(#g)"/>
+  <text x="84" y="320" font-size="64" font-family="Poppins, system-ui" font-weight="800" fill="#E5E7EB">
+    PocketProfit
+  </text>
+  <text x="84" y="372" font-size="30" font-family="Poppins, system-ui" fill="#E5E7EB" opacity=".75">
+    Smart Money Decisions Start Here
+  </text>
+  <rect x="84" y="410" width="240" height="54" rx="18" fill="#22C55E" opacity=".9"/>
+  <text x="108" y="447" font-size="20" font-family="Poppins, system-ui" font-weight="700" fill="#0B1220">
+    pocketprofit.in
+  </text>
+</svg>
+

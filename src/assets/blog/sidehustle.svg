@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22C55E" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity=".06"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#070A12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#bg)"/>
+  <path d="M140 420c180-220 360-280 540-180s250 240 380 120" fill="none" stroke="url(#g)" stroke-width="64" stroke-linecap="round"/>
+  <g fill="#E5E7EB" opacity=".9">
+    <text x="72" y="528" font-size="48" font-family="Poppins, system-ui" font-weight="700">Side Hustles</text>
+    <text x="72" y="576" font-size="26" font-family="Poppins, system-ui" opacity=".75">PocketProfit Guides</text>
+  </g>
+</svg>
+

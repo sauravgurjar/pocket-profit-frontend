@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22C55E" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#070A12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#bg)"/>
+  <circle cx="330" cy="210" r="220" fill="url(#g)"/>
+  <circle cx="920" cy="140" r="170" fill="url(#g)"/>
+  <g fill="none" stroke="#22C55E" stroke-opacity=".65" stroke-width="10" stroke-linecap="round">
+    <path d="M230 420c70-80 140-130 210-150s160-10 260 120 180 130 250 80"/>
+  </g>
+  <g fill="#E5E7EB" opacity=".9">
+    <text x="72" y="528" font-size="48" font-family="Poppins, system-ui" font-weight="700">Investing</text>
+    <text x="72" y="576" font-size="26" font-family="Poppins, system-ui" opacity=".75">PocketProfit Guides</text>
+  </g>
+</svg>
+
