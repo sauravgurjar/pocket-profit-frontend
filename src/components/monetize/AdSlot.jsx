@@ -4,7 +4,7 @@ import Card from "../ui/Card";
 export default function AdSlot({
   label = "Sponsored",
   className = "",
-  adSlot = "1234567890",
+  adSlot = "7699084705",
 }) {
   useEffect(() => {
     try {
