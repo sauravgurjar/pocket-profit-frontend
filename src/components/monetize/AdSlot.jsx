@@ -11,8 +11,8 @@ export default function AdSlot({
       if (window.adsbygoogle) {
         window.adsbygoogle.push({});
       }
-    } catch (e) {
-      console.log(e);
+    } catch (err) {
+      console.log(err);
     }
   }, []);
 
@@ -28,14 +28,14 @@ export default function AdSlot({
         </span>
       </div>
 
-      <amp-ad
-        layout="fixed"
-        width="300"
-        height="300"
-        type="adsense"
+      <ins
+        className="adsbygoogle"
+        style={{ display: "block" }}
         data-ad-client="ca-pub-2046999803654855"
-        data-ad-slot="7699084705">
-      </amp-ad>
+        data-ad-slot={adSlot}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
     </Card>
   );
 }
