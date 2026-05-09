@@ -28,14 +28,14 @@ export default function AdSlot({
         </span>
       </div>
 
-      <ins
-        className="adsbygoogle block"
-        style={{ display: "block" }}
+      <amp-ad
+        layout="fixed"
+        width="300"
+        height="300"
+        type="adsense"
         data-ad-client="ca-pub-2046999803654855"
-        data-ad-slot={adSlot}
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
+        data-ad-slot="7699084705">
+      </amp-ad>
     </Card>
   );
 }
